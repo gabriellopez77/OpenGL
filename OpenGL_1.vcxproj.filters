@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="includes\glad\glad.h" />
+    <ClInclude Include="includes\KHR\khrplatform.h" />
+    <ClInclude Include="src\shaders.h" />
+    <ClInclude Include="src\GLTemplates.h" />
+    <ClInclude Include="includes\stb_image.h" />
+    <ClInclude Include="src\Texture.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application.cpp" />
+    <ClCompile Include="src\libs\glad.c" />
+    <ClCompile Include="src\shaders.cpp" />
+    <ClCompile Include="src\GLTemplates.cpp" />
+    <ClCompile Include="src\Texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\shaders\vertex_shader1.glsl" />
+    <None Include="src\shaders\vertex_shader2.glsl" />
+    <None Include="src\shaders\vertex_shader3.glsl" />
+    <None Include="src\shaders\vertex_shader4.glsl" />
+    <None Include="src\shaders\fragment_shader1.glsl" />
+    <None Include="src\shaders\fragment_shader2.glsl" />
+    <None Include="src\shaders\fragment_shader3.glsl" />
+    <None Include="src\shaders\fragment_shader4.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\container.jpg" />
+    <Image Include="assets\grass_block.png" />
+  </ItemGroup>
+</Project>
